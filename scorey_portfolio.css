@@ -1,0 +1,26 @@
+body{
+	background:white;
+}
+#nav-bar{
+width: 100%;
+border:1px solid red;
+}
+.nav-links li{
+display: inline;
+list-style: none;
+}
+.work-type{
+	width:40%;
+	margin: 0 auto;
+	float: left;
+	padding: 40px;
+	height: 700px;
+}
+h3{
+	color: blueviolet;
+	font-family: arial;
+	border:1px solid red;
+	height:300px;
+	width: 30%;
+	margin: 0 auto;
+}
