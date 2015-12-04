@@ -1,26 +1,36 @@
 body{
-	background:white;
+	background-image: url("Marfa.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	position: fixed;
 }
-#nav-bar{
-width: 100%;
-border:1px solid red;
+#nav-bar li{
+	list-style: none;
+	font: 16px bold Arial, sans-serif;
+	color: white;
+	display: inline;
+	padding: 20px;
+	width: 90%;
 }
-.nav-links li{
-display: inline;
-list-style: none;
+#nav-bar ul{
+	text-align: right;
 }
-.work-type{
-	width:40%;
-	margin: 0 auto;
-	float: left;
-	padding: 40px;
-	height: 700px;
-}
-h3{
-	color: blueviolet;
+h1{
+	color: white;
 	font-family: arial;
-	border:1px solid red;
-	height:300px;
-	width: 30%;
+	width: 10%;
 	margin: 0 auto;
+	float: left;	
+}
+#gallery{
+	width: 960px;
+	/*border: 1px solid black;*/
+	height: 400px;
+	margin: 0 auto;
+	padding-top: 100px;						
+}
+.gallery{
+	border: 1px solid purple;
+	display: inline;
+	margin: 5px;
 }
