@@ -8,19 +8,26 @@ body{
 	list-style: none;
 	font: 16px bold Arial, sans-serif;
 	color: white;
+	width: 70%;
+	margin: 0 auto;
 	display: inline;
 	padding: 20px;
-	width: 90%;
 }
 #nav-bar ul{
 	text-align: right;
+	height: 40px;
+	display: inline;
+	padding: 500px;
+	
 }
 h1{
 	color: white;
 	font-family: arial;
-	width: 10%;
+	width: 30%;
 	margin: 0 auto;
-	float: left;	
+	float: left;
+	height: 40px;
+	font-size: 16px;	
 }
 #gallery{
 	width: 960px;
