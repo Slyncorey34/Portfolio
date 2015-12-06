@@ -26,10 +26,12 @@ html {
 	margin: 0 auto;
 	display: inline;
 	padding: 30px;
+	/*font-weight: bold;*/
+	font-size: 120%;
 }
 #nav-bar ul{
 	text-align: right;
-	border: 1px solid red;
+	/*border: 1px solid red;*/
 	width:500px; 
 	float: right;	
 }
@@ -45,44 +47,32 @@ html {
 	height: 100px;
 	border: 1px solid green;
 	float: left;
+	/*clear: both;*/
 	margin-top: 30px;
 	font-size: 120%;
 }
 #gallery{
-	width: 960px;
+	width: 90%;
 	/*border: 1px solid black;*/
-	height: 400px;
-	margin: 0 auto;
-	padding-top: 210px;						
+	height: 300px;
+/*	margin: 0 auto*/
+clear: both;
+	/*padding-top: 210px;*/
+	border: 2px solid red;						
 }
 .gallery{
 	display: inline;
-	margin: 10px;
+	/*margin: 9px;*/
+
+	/*border: 3px solid purple;*/
 }
 h1{
 	color: white;
-	/*font-family: arial;
-	width: 30%;*/
-	margin-right: 600px;
+	width: 20%;
 	float: left;
-	/*height: 40px;*/
 	font-size: 180%;
 	border: 1px solid blue;
 }
-/*.statement {
-width: 700px;
-border: 1px solid pink;
-}*/
-/*.statement h2{
-	width: 690px;
-	color: white;
-	font-family: arial;
-	font-size: 14px;
-
-
-}
-
-*/
 
 
 
