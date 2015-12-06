@@ -11,7 +11,7 @@ html {
 	background-image: url("desert.jpg");
 	background-repeat: no-repeat;
 	background-size: 100%;
-	position: fixed;
+	position: relative;
 }
 /*p{
 	font: 16px bold, Arial;
@@ -54,7 +54,7 @@ html {
 #gallery{
 	width: 90%;
 	/*border: 1px solid black;*/
-	height: 300px;
+	height: 900px;
 /*	margin: 0 auto*/
 clear: both;
 	/*padding-top: 210px;*/
@@ -63,8 +63,9 @@ clear: both;
 .gallery{
 	display: inline;
 	/*margin: 9px;*/
+	
 
-	/*border: 3px solid purple;*/
+	border: 1px solid purple;
 }
 h1{
 	color: white;
