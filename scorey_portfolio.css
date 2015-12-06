@@ -12,13 +12,15 @@ body{
 	margin: 0 auto;
 	display: inline;
 	padding: 20px;
+	border: 2px solid blue;
 }
 #nav-bar ul{
 	text-align: right;
 	height: 40px;
 	display: inline;
-	padding: 500px;
+	padding: 400px;
 	font-weight: bold;
+	border: 1px solid red;
 	
 }
 #nav-bar a:hover{
