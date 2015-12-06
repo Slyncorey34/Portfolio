@@ -53,18 +53,19 @@ ul {
 	font-size: 120%;
 }
 #gallery{
-	width: 80%;
+	width: 90%;
 	/*border: 1px solid black;*/
-	height: 400px;
+	height: 600px;
 	margin: 0 auto;
 	clear: both;
 	/*padding-top: 210px;*/
-	border: 2px solid red;						
+	/*border: 2px solid red;	*/					
 }
 .gallery{
 	display: inline;
 	/*margin: 0 auto;*/
-	margin: 20px 90px;
+	margin: 20px 20px;
+
 	/*padding-right: 20px;*/
 	border: 1px solid purple;
 	
