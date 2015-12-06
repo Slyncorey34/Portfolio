@@ -1,9 +1,25 @@
-body{
-	background-image: url("Marfa.jpg");
+html {
+   font-style: normal;
+   font-variant: normal;
+   font-weight: normal;
+   font-size: 80%;
+   line-height: normal;
+   font-family: Arial,sans-serif;
+   color: grey;
+ }
+ body{
+	background-image: url("desert.jpg");
 	background-repeat: no-repeat;
 	background-size: 100%;
 	position: fixed;
 }
+/*p{
+	font: 16px bold, Arial;
+	color: grey;
+	width: 50%;
+	border: 1px solid red;
+
+}*/
 #nav-bar li{
 	list-style: none;
 	font: 16px bold Arial, sans-serif;
@@ -12,15 +28,13 @@ body{
 	margin: 0 auto;
 	display: inline;
 	padding: 20px;
-	border: 2px solid blue;
 }
 #nav-bar ul{
 	text-align: right;
 	height: 40px;
 	display: inline;
-	padding: 400px;
+	padding: 470px;
 	font-weight: bold;
-	border: 1px solid red;
 	
 }
 #nav-bar a:hover{
@@ -28,16 +42,7 @@ body{
 }
 #nav-bar a{
 	text-decoration: none;
-	color: white;
-}
-h1{
-	color: white;
-	font-family: arial;
-	width: 30%;
-	margin: 0 auto;
-	float: left;
-	height: 40px;
-	font-size: 16px;	
+	color: white;	
 }
 #gallery{
 	width: 960px;
@@ -50,3 +55,35 @@ h1{
 	display: inline;
 	margin: 10px;
 }
+/*h1{
+	color: white;
+	font-family: arial;
+	width: 30%;
+	margin: 0 auto;
+	float: left;
+	height: 40px;
+	font-size: 16px;
+}*/
+.statement {
+width: 700px;
+border: 1px solid pink;
+}
+/*.statement h2{
+	width: 690px;
+	color: white;
+	font-family: arial;
+	font-size: 14px;
+
+
+}
+
+*/
+
+
+
+
+
+
+
+
+
