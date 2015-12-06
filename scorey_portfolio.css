@@ -53,9 +53,9 @@ ul {
 	font-size: 120%;
 }
 #gallery{
-	width: 90%;
+	width: 80%;
 	/*border: 1px solid black;*/
-	height: 600px;
+	height: 400px;
 	margin: 0 auto;
 	clear: both;
 	/*padding-top: 210px;*/
@@ -63,11 +63,11 @@ ul {
 }
 .gallery{
 	display: inline;
-	width: 90%;
-	margin: 0 auto;
-	height: 600px;
+	/*margin: 0 auto;*/
+	margin: 20px 90px;
+	/*padding-right: 20px;*/
 	border: 1px solid purple;
-	padding-top: 200px;
+	
 }
 
 
