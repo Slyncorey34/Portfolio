@@ -85,8 +85,21 @@ ul {
 #gallery a:hover{
 	color: #660033;
 }
+#channel{
+	/*margin-left: 70px;*/
+	width: 90%;
+	height:400px;	
+}
+.video{
+	margin: 0 60px;
+	width: auto;
+	height: 400px;
+	float: left;
 
-
+}
+.video a{
+	color: #660033;
+}
 
 
 
