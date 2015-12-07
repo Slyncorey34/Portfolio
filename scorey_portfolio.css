@@ -46,19 +46,19 @@ ul {
 }
 
 #description{
-	width: 80%;
-	height: 60px;
+	width: 100%;
+	height: 80px;
 	/*border: 1px solid green;*/
 	clear: both;
-	margin-bottom: 0;
-	margin-left: 70px;
+	margin-bottom: -25px;
 	font-size: 120%;
+	text-align: center;
 }
 #gallery{
-	width: 90%;
+	width: 100%;
 	/*border: 1px solid black;*/
 	height: 600px;
-	margin: 0 auto;
+	/*margin: 0 auto;*/
 	clear: both;
 	color: #FF9999;
 	font-size: 80%;
@@ -67,12 +67,10 @@ ul {
 }
 .gallery{
 	/*display: inline;*/
-	/*margin: 0 auto;*/
-	margin: 0 90px;
-	width: 95px;
+	margin: 0 105px;
+	width: auto;
 	height: 40px;
 	float: left;
-	/*padding-right: 20px;*/
 	/*border: 3px solid purple;*/
 	
 }
@@ -82,6 +80,7 @@ ul {
     /*text-align: center;
     padding: 25px 30px;*/
     text-decoration: none;
+
 
 }
 #gallery a:hover{
@@ -112,7 +111,7 @@ ul {
 }
 .social{
 	padding:;
-	margin:70px;
+	margin:150px;
 	display: inline;
 }
 
