@@ -1,0 +1,124 @@
+html {
+   font-style: normal;
+   font-variant: normal;
+   font-weight: normal;
+   font-size: 80%;
+   line-height: normal;
+   font-family: Arial,sans-serif;
+   color: grey;
+
+ }
+ 
+ body{
+	background-image: url("desert54%.jpg");
+	background-repeat: no-repeat;
+	background-size: 120%;
+	position: relative;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding-left: 40px;
+    padding-bottom: 10px;
+    overflow: hidden;
+}
+
+#nav-bar li {
+    float: left;
+    display:block;
+    color: white;
+    /*font-size: 115%;*/
+    letter-spacing: 2px;
+    font-weight: bolder;
+}	
+
+ul a{
+	display: block;
+    color: white;
+    text-align: center;
+    padding: 25px 30px;
+    text-decoration: none;
+
+}
+#nav-bar a:hover{
+	color:#FF9999;
+}
+
+#description{
+	width: 100%;
+	height: 80px;
+	/*border: 1px solid green;*/
+	clear: both;
+	margin-bottom: -25px;
+	font-size: 120%;
+	text-align: center;
+}
+#gallery{
+	width: 100%;
+	/*border: 1px solid black;*/
+	height: 600px;
+	/*margin: 0 auto;*/
+	clear: both;
+	color: #FF9999;
+	font-size: 80%;
+	/*padding-top: 210px;*/
+	/*border: 2px solid red;	*/					
+}
+.gallery{
+	/*display: inline;*/
+	margin: 0 105px;
+	width: auto;
+	height: 40px;
+	float: left;
+	/*border: 3px solid purple;*/
+	
+}
+#gallery a{
+	/*display: block;*/
+    color: #FF9999;
+    /*text-align: center;
+    padding: 25px 30px;*/
+    text-decoration: none;
+
+
+}
+#gallery a:hover{
+	color: #660033;
+}
+#channel{
+	margin-left: 70px;
+	width: 90%;
+	height:400px;	
+}
+.video{
+	margin: 0 60px;
+	width: auto;
+	height: 400px;
+	float: left;
+
+}
+.video a{
+	color: white;
+	letter-spacing: 2px;
+	background-color: #FF9999;
+	font-size: 14px;
+	text-decoration: none;
+	padding: 10px;
+}
+.video a:hover{
+	color: #660033;
+}
+.social{
+	padding:;
+	margin:150px;
+	display: inline;
+}
+
+
+
+
+
+
+
