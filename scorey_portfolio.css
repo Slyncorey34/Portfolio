@@ -2,9 +2,9 @@ html {
    font-style: normal;
    font-variant: normal;
    font-weight: normal;
-   font-size: 80%;
+   font-size: 100%;
    line-height: normal;
-   font-family: Arial,sans-serif;
+   font-family: Arial, sans-serif;
    color: grey;
 
  }
@@ -17,35 +17,39 @@ html {
 }
 
 
-ul {
-    list-style-type: none;
+nav ul {
+
     margin: 0;
     padding-left: 40px;
     padding-bottom: 10px;
     overflow: hidden;
 }
 
-#nav-bar li {
-    float: left;
+nav li {
+    float: right;
     display:block;
     color: white;
     /*font-size: 115%;*/
     letter-spacing: 2px;
     font-weight: bolder;
+    list-style-type: none;
 }	
 
-ul a{
+nav a{
 	display: block;
     color: white;
-    text-align: center;
-    padding: 25px 30px;
+    /*text-align: center;*/
+    padding: 5px 30px;
     text-decoration: none;
 
 }
-#nav-bar a:hover{
+nav a:hover{
 	color:#FF9999;
 }
 
+nav h1{
+	display:inline;
+}
 #description{
 	width: 100%;
 	height: 80px;

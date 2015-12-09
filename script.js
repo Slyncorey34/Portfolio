@@ -1,12 +1,7 @@
-// $("#social").click (
-// 	function()
-// 	{
-// 		$("#social").slideDown();
-// 	}
-// 	);
-$("description").click (
-	function()
-	{
-		$("#nav-bar").slideDown();
-	}
-	);
+$(document).ready(
+	function(){
+	$("#nav-bar").animate(
+		opacity: ".5",
+		}3000);
+
+);

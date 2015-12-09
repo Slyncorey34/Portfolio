@@ -92,14 +92,14 @@ ul a{
 	width: 90%;
 	height:400px;	
 }
-.video{
+.item{
 	margin: 0 60px;
 	width: auto;
 	height: 400px;
 	float: left;
 
 }
-.video a{
+.item a{
 	color: white;
 	letter-spacing: 2px;
 	background-color: #FF9999;
@@ -107,7 +107,7 @@ ul a{
 	text-decoration: none;
 	padding: 10px;
 }
-.video a:hover{
+.item a:hover{
 	color: #660033;
 }
 .social{
