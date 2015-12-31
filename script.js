@@ -1,7 +1,6 @@
-$(document).ready(
-	function(){
-	$("#nav-bar").animate(
-		opacity: ".5",
-		}3000);
+$(document).ready(function() {
+	$("h2").style(opacity="0.5")3000;}
+		
+		
+	);
 
-);
