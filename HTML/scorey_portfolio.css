@@ -10,10 +10,9 @@ html {
  }
  
  body{
-	background-color: #c2c2c2;
-	/*/*background-repeat: no-repeat;*/
-	/*background-size: 120%;
-	position: relative;*/*/
+	background-image: url("matisse.jpg");
+	background-repeat: no-repeat;
+	background-size: 120%;
 }
 .main{
 	background-color: white;
@@ -26,7 +25,7 @@ html {
 }
 
 .main h1 {
-	color: black;
+	color: pink;
 	text-align: center;
 	margin: 0, auto;
 	padding-top: 20%;
@@ -37,12 +36,12 @@ html {
 	list-style: none;
 	display: inline;
 	text-decoration: none;
-	margin-right: %;
+	/*margin-right: %;*/
 	padding-top: 5%;
 }
 .main a{
 	display: block;
-    color: red;
+    color: olive;
     padding: 0 30px;	
     text-decoration: none;
     font-size: 14px;
@@ -51,15 +50,27 @@ html {
 .main a:hover{
 	color:#FF9999;
 }
-
-#description{
+.section1 {
 	width: 50%;
-	height: 80px;
+	height: 100%;
+	margin-left: 40%;
+	margin-top: 7%;
+}
+.section1 img{
+	border-radius: 100px;
+}
+.section2{
+	width: 40%;
+	height: 100%;
 	/*border: 1px solid green;*/
-	clear: both;
-	padding: 10px 55px;
-	margin-bottom: -25px;
-	font-size: 120%;
+	/*clear: both;*/
+	/*padding: 15px;*/
+	/*margin-bottom: -25px;*/
+	/*font-size: 120%;*/
+	margin-left: 30%;
+	margin-top: 5%;
+	background-color: white;
+	color: slategrey;
 	
 }
 
