@@ -1,0 +1,150 @@
+html {
+   font-style: normal;
+   font-variant: normal;
+   font-weight: normal;
+   font-size: 90%;
+   line-height: normal;
+   font-family: Arial, sans-serif;
+/*   color: lilac;*/
+
+ }
+ 
+ body{
+	background-image: url("matisse.jpg");
+	background-repeat: no-repeat;
+	background-size: 120%;
+}
+.main{
+	background-color: white;
+	width: 60%;
+	height: 280px;
+	margin: 0, auto;
+	margin-left: 18%;
+	margin-top: 15%;
+
+}
+
+.main h1 {
+	color: pink;
+	text-align: center;
+	margin: 0, auto;
+	padding-top: 20%;
+}
+
+.main li{
+	float: left;
+	list-style: none;
+	display: inline;
+	text-decoration: none;
+	/*margin-right: %;*/
+	padding-top: 5%;
+}
+.main a{
+	display: block;
+    color: olive;
+    padding: 0 30px;	
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+}
+.main a:hover{
+	color:#FF9999;
+}
+.section1 {
+	width: 50%;
+	height: 100%;
+	margin-left: 40%;
+	margin-top: 7%;
+}
+.section1 img{
+	border-radius: 100px;
+}
+.section2{
+	width: 40%;
+	height: 100%;
+	/*border: 1px solid green;*/
+	/*clear: both;*/
+	/*padding: 15px;*/
+	/*margin-bottom: -25px;*/
+	/*font-size: 120%;*/
+	margin-left: 30%;
+	margin-top: 5%;
+	background-color: white;
+	color: slategrey;
+	
+}
+
+h4{
+	text-align:center;
+	padding: 4px;
+}
+#gallery{
+	width: 100%;
+	/*border: 1px solid black;*/
+	height: 600px;
+	/*margin: 0 auto;*/
+	clear: both;
+	color: #FF9999;
+	font-size: 80%;
+	/*padding-top: 210px;*/
+	/*border: 2px solid red;	*/					
+}
+.gallery{
+	/*display: inline;*/
+	margin: 0 105px;
+	width: auto;
+	height: 40px;
+	float: left;
+	/*border: 3px solid purple;*/
+	
+}
+#gallery a{
+	/*display: block;*/
+    color: #FF9999;
+    /*text-align: center;
+    padding: 25px 30px;*/
+    text-decoration: none;
+
+
+}
+#gallery a:hover{
+	color: #660033;
+}
+.social-icons{
+	border: 1px solid blue;
+}
+#channel{
+	margin-left: 70px;
+	width: 90%;
+	height:400px;	
+}
+.video{
+	margin: 0 60px;
+	width: auto;
+	height: 400px;
+	float: left;
+
+}
+.video a{
+	color: white;
+	letter-spacing: 2px;
+	background-color: #FF9999;
+	font-size: 14px;
+	text-decoration: none;
+	padding: 10px;
+}
+.video a:hover{
+	color: #660033;
+}
+.social{
+	/*padding: 70px;*/
+	margin-left: 80px;
+	display: inline;	
+}
+
+
+
+
+
+
+
