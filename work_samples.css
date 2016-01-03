@@ -1,0 +1,75 @@
+html {
+   color: grey;
+   font-family: Arial,sans-serif;
+   font-size: 80%;
+   font-style: normal;
+   font-variant: normal;
+   font-weight: normal;
+   line-height: normal;
+
+ }
+ 
+ body{
+	background-color: white;
+	/*background-image: url("matisse.jpg");*/
+	/*background-repeat: no-repeat;*/
+	background-size: auto;
+	position: relative;
+}
+
+#nav-bar ul {
+	color: black;
+	font-weight: bold;
+	height: 50px;
+	margin-left: 900px;
+			
+}
+#nav-bar li {
+	display: inline;
+	list-style: none;
+	padding: 15px 15px;
+}
+#section1{
+	width: 80%;
+	height: 200px;
+	background-color: white;
+	margin-left: 8%;
+	margin-top: 5%;
+}
+#gallery {
+	background-color: white;
+	height: 1000px;
+	margin-bottom: 5%;
+	/*margin-left: 3%;*/
+	margin-top: -80px;
+	padding-bottom: 2%;
+	width: 100%;
+}
+.item	{
+	/*height: 320px;*/
+	float: left;
+	margin-left: 5%;
+	margin-top: 7%;
+	margin-right: 1%;
+	width: auto;
+
+}
+.item a{
+	background-color: #FF9999;
+	color: white;
+	font-size: 14px;
+	letter-spacing: 2px;
+	padding: 10px;
+	text-decoration: none;
+}
+.item a:hover{
+	color: #660033;
+}
+
+
+
+
+
+
+
+

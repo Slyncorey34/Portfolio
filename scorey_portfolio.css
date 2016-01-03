@@ -1,107 +1,120 @@
 html {
+   font-family: Arial, sans-serif;
+   font-size: 90%;
    font-style: normal;
    font-variant: normal;
    font-weight: normal;
-   font-size: 90%;
    line-height: normal;
-   font-family: Arial, sans-serif;
-/*   color: lilac;*/
 
  }
  
  body{
-	background-image: url("matisse.jpg");
+	background-color: pink;
+	/*background-image: url("matisse.jpg");*/
 	background-repeat: no-repeat;
-	background-size: 120%;
+/*	background-size: 120%;*/
+}
+#nav-bar ul{
+	float: right;
+	font-weight: bold;
+	margin-top: -60px;
+	margin-right: 3%;
+			
+}
+#nav-bar li {
+	display: inline;
+	list-style: none;
+	padding: 15px;
 }
 .main{
 	background-color: white;
-	width: 60%;
 	height: 280px;
-	margin: 0, auto;
 	margin-left: 18%;
 	margin-top: 15%;
+	margin: 0, auto;
+	width: 60%;
 
 }
 
 .main h1 {
 	color: pink;
-	text-align: center;
 	margin: 0, auto;
 	padding-top: 20%;
+	text-align: center;
 }
 
 .main li{
+	/*margin-right: %;*/
+	display: inline;
 	float: left;
 	list-style: none;
-	display: inline;
-	text-decoration: none;
-	/*margin-right: %;*/
 	padding-top: 5%;
+	text-decoration: none;
 }
 .main a{
 	display: block;
     color: olive;
-    padding: 0 30px;	
-    text-decoration: none;
     font-size: 14px;
     font-weight: bold;
+    padding: 0 30px;	
+    text-decoration: none;
 }
 .main a:hover{
 	color:#FF9999;
 }
 .section1 {
-	width: 50%;
 	height: 100%;
 	margin-left: 40%;
 	margin-top: 7%;
+	width: 60%;
 }
 .section1 img{
-	border-radius: 100px;
+
+	border-radius: 180px;
 }
 .section2{
-	width: 40%;
-	height: 100%;
 	/*border: 1px solid green;*/
 	/*clear: both;*/
-	/*padding: 15px;*/
-	/*margin-bottom: -25px;*/
 	/*font-size: 120%;*/
-	margin-left: 30%;
-	margin-top: 5%;
+	/*margin-bottom: -25px;*/
 	background-color: white;
 	color: slategrey;
+	height: 100%;
+	margin-left: 30%;
+	margin-top: 5%;
+	padding: 20px;
+	width: 40%;
 	
 }
 
 h4{
-	text-align:center;
 	padding: 4px;
+	text-align:center;
 }
 #gallery{
-	width: 100%;
 	/*border: 1px solid black;*/
-	height: 600px;
+	/*border: 2px solid red;	*/					
 	/*margin: 0 auto;*/
+	/*padding-top: 210px;*/
 	clear: both;
 	color: #FF9999;
 	font-size: 80%;
-	/*padding-top: 210px;*/
-	/*border: 2px solid red;	*/					
+	height: 100%;
+	width: 100%;
 }
 .gallery{
+	/*border: 3px solid purple;*/
 	/*display: inline;*/
+	float: left;
+	height: 40px;
 	margin: 0 105px;
 	width: auto;
-	height: 40px;
-	float: left;
-	/*border: 3px solid purple;*/
 	
 }
 #gallery a{
 	/*display: block;*/
-    color: #FF9999;
     /*text-align: center;
+    color: #FF9999;
     padding: 25px 30px;*/
     text-decoration: none;
 
@@ -114,32 +127,32 @@ h4{
 	border: 1px solid blue;
 }
 #channel{
+	height:400px;	
 	margin-left: 70px;
 	width: 90%;
-	height:400px;	
 }
 .video{
+	float: left;
+	height: 400px;
 	margin: 0 60px;
 	width: auto;
-	height: 400px;
-	float: left;
 
 }
 .video a{
-	color: white;
-	letter-spacing: 2px;
 	background-color: #FF9999;
+	color: white;
 	font-size: 14px;
-	text-decoration: none;
+	letter-spacing: 2px;
 	padding: 10px;
+	text-decoration: none;
 }
 .video a:hover{
 	color: #660033;
 }
 .social{
 	/*padding: 70px;*/
-	margin-left: 80px;
 	display: inline;	
+	margin-left: 80px;
 }
 
 
