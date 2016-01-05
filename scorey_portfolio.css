@@ -9,15 +9,14 @@ html {
  }
  
  body{
-	background-color: pink;
-	/*background-image: url("matisse.jpg");*/
+	background-color: white;
 	background-repeat: no-repeat;
-/*	background-size: 120%;*/
 }
+
 #nav-bar ul{
 	float: right;
 	font-weight: bold;
-	margin-top: -60px;
+	margin-top: -3%;
 	margin-right: 3%;
 			
 }
@@ -26,8 +25,14 @@ html {
 	list-style: none;
 	padding: 15px;
 }
+#nav-bar a{
+	text-decoration: none;
+}
+#nav-bar a:visited {
+	color: red;
+}
 .main {
-	/*background-color: white;*/
+	
 	height: 180px;
 	margin-left: 18%;
 	margin-top: 4%;
