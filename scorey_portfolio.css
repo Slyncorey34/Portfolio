@@ -30,7 +30,7 @@ html {
 	/*background-color: white;*/
 	height: 180px;
 	margin-left: 18%;
-	margin-top: 15%;
+	margin-top: 4%;
 	margin: 0, auto;
 	width: 60%;
 }
@@ -62,27 +62,24 @@ html {
 	color:#FF9999;
 }
 #section1 p{
-	height: 200px;
+	height: 80px;
 	margin-left: 5%;
 	/*margin-top: 2%;*/
 	width: 80%;
 }
-.section1 img{
 
-	border-radius: 180px;
-}
 .section2{
-	/*border: 1px solid green;*/
-	/*clear: both;*/
-	/*font-size: 120%;*/
-	/*margin-bottom: -25px;*/
+	/*border: 1px solid green;
+	clear: both;
+	font-size: 120%;
+	margin-bottom: -25px;
 	background-color: white;
 	color: slategrey;
 	
-	/*margin-left: 30%;
-	margin-top: 5%;*/
+	margin-left: 30%;
+	margin-top: 5%;
 
-	width: 100%;
+	width: 100%;*/
 	
 }
 .about {
@@ -104,8 +101,8 @@ h4{
 	/*padding-top: 210px;*/
 	/*clear: both;*/
 	color: #FF9999;
-	font-size: 80%;
-	height: 100%;
+	/*font-size: 80%;*/
+	height: 90%;
 	width: 100%;
 }
 
@@ -125,7 +122,7 @@ h4{
 	/*height: 320px;*/
 	float: left;
 	margin-left: 5%;
-	margin-top: 7%;
+	margin-top: 3%;
 	margin-right: 1%;
 	width: auto;
 
@@ -143,8 +140,6 @@ h4{
 .item a:hover{
 	color: #660033;
 }
-
-
 
 .social-icons{
 	border: 1px solid blue;
