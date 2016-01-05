@@ -9,7 +9,7 @@ html {
  }
  
  body{
-	background-color: pink;
+	background-color: #003366;
 	/*background-image: url("matisse.jpg");*/
 	background-repeat: no-repeat;
 /*	background-size: 120%;*/
@@ -26,21 +26,20 @@ html {
 	list-style: none;
 	padding: 15px;
 }
-.main{
-	background-color: white;
+.main {
+	/*background-color: white;*/
 	height: 280px;
 	margin-left: 18%;
 	margin-top: 15%;
 	margin: 0, auto;
 	width: 60%;
-
 }
 
 .main h1 {
-	color: pink;
+	color: white;
+	font-family: Georgia;
 	margin: 0, auto;
-	padding-top: 20%;
-	text-align: center;
+	
 }
 
 .main li{
@@ -53,7 +52,7 @@ html {
 }
 .main a{
 	display: block;
-    color: olive;
+    color: white;
     font-size: 14px;
     font-weight: bold;
     padding: 0 30px;	
@@ -79,12 +78,19 @@ html {
 	/*margin-bottom: -25px;*/
 	background-color: white;
 	color: slategrey;
+	
+	/*margin-left: 30%;
+	margin-top: 5%;*/
+
+	width: 100%;
+	
+}
+.about {
 	height: 100%;
 	margin-left: 30%;
 	margin-top: 5%;
 	padding: 20px;
 	width: 40%;
-	
 }
 
 h4{
@@ -125,34 +131,6 @@ h4{
 }
 .social-icons{
 	border: 1px solid blue;
-}
-#channel{
-	height:400px;	
-	margin-left: 70px;
-	width: 90%;
-}
-.video{
-	float: left;
-	height: 400px;
-	margin: 0 60px;
-	width: auto;
-
-}
-.video a{
-	background-color: #FF9999;
-	color: white;
-	font-size: 14px;
-	letter-spacing: 2px;
-	padding: 10px;
-	text-decoration: none;
-}
-.video a:hover{
-	color: #660033;
-}
-.social{
-	/*padding: 70px;*/
-	display: inline;	
-	margin-left: 80px;
 }
 
 

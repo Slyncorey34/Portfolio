@@ -56,11 +56,13 @@ html {
 }
 .item a{
 	background-color: #FF9999;
+	border-radius: 30px;
 	color: white;
 	font-size: 14px;
 	letter-spacing: 2px;
 	padding: 10px;
 	text-decoration: none;
+	font-weight: bold;
 }
 .item a:hover{
 	color: #660033;
