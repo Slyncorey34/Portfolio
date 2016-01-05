@@ -9,7 +9,7 @@ html {
  }
  
  body{
-	background-color: #003366;
+	background-color: pink;
 	/*background-image: url("matisse.jpg");*/
 	background-repeat: no-repeat;
 /*	background-size: 120%;*/
@@ -28,9 +28,9 @@ html {
 }
 .main {
 	/*background-color: white;*/
-	height: 280px;
+	height: 180px;
 	margin-left: 18%;
-	margin-top: 15%;
+	margin-top: 4%;
 	margin: 0, auto;
 	width: 60%;
 }
@@ -61,28 +61,25 @@ html {
 .main a:hover{
 	color:#FF9999;
 }
-.section1 {
-	height: 100%;
-	margin-left: 40%;
-	margin-top: 7%;
-	width: 60%;
+#section1 p{
+	height: 80px;
+	margin-left: 5%;
+	/*margin-top: 2%;*/
+	width: 80%;
 }
-.section1 img{
 
-	border-radius: 180px;
-}
 .section2{
-	/*border: 1px solid green;*/
-	/*clear: both;*/
-	/*font-size: 120%;*/
-	/*margin-bottom: -25px;*/
+	/*border: 1px solid green;
+	clear: both;
+	font-size: 120%;
+	margin-bottom: -25px;
 	background-color: white;
 	color: slategrey;
 	
-	/*margin-left: 30%;
-	margin-top: 5%;*/
+	margin-left: 30%;
+	margin-top: 5%;
 
-	width: 100%;
+	width: 100%;*/
 	
 }
 .about {
@@ -102,21 +99,13 @@ h4{
 	/*border: 2px solid red;	*/					
 	/*margin: 0 auto;*/
 	/*padding-top: 210px;*/
-	clear: both;
+	/*clear: both;*/
 	color: #FF9999;
-	font-size: 80%;
-	height: 100%;
+	/*font-size: 80%;*/
+	height: 90%;
 	width: 100%;
 }
-.gallery{
-	/*border: 3px solid purple;*/
-	/*display: inline;*/
-	float: left;
-	height: 40px;
-	margin: 0 105px;
-	width: auto;
-	
-}
+
 #gallery a{
 	/*display: block;*/
     /*text-align: center;
@@ -129,13 +118,32 @@ h4{
 #gallery a:hover{
 	color: #660033;
 }
+.item	{
+	/*height: 320px;*/
+	float: left;
+	margin-left: 5%;
+	margin-top: 3%;
+	margin-right: 1%;
+	width: auto;
+
+}
+.item a{
+	background-color: #FF9999;
+	border-radius: 30px;
+	color: white;
+	font-size: 14px;
+	letter-spacing: 2px;
+	padding: 10px;
+	text-decoration: none;
+	font-weight: bold;
+}
+.item a:hover{
+	color: #660033;
+}
+
 .social-icons{
 	border: 1px solid blue;
 }
-
-
-
-
 
 
 
